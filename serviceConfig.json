@@ -1,0 +1,15 @@
+﻿{
+   "_comment_": "This file is used if an external application needs to change the values the client application will use to communicate with the service.",
+
+   "licenseDirectory": null,
+
+   "serviceHost": "http://localhost:63036",
+   "servicePath": "",
+   "serviceApiPath": "api",
+
+   "app3": "http://localhost:19030",
+   "app4": "http://localhost:19040",
+
+   "GoogleDriveLoad_ClientID": "",
+   "GoogleDriveLoad_APIKey": ""
+}

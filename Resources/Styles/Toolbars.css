@@ -1,0 +1,165 @@
+﻿.toolbar {
+   background: #DFE1E5;
+   position: fixed;
+   left: 0px;
+   right: 0px;
+   z-index: 2;
+   -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
+   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+   /* Used to use flexbox - but for IE9 support, float the li elements instead */
+   .toolbar > div > .nav {
+      list-style-type: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+   }
+
+   .toolbar > div > .nav > li {
+      float: left;
+   }
+
+   .toolbar > div > ul > li > a {
+      border-radius: 0px !important;
+      padding: 5px 15px !important;
+   }
+
+.shortcutsbar {
+   border-top: 1px solid silver;
+   width: 100%;
+   height: 28px;
+   background-color: #DFE1E5;
+   overflow-x: visible;
+   overflow-y: hidden;
+}
+
+   .shortcutsbar > button {
+      position: relative;
+      bottom: 5px;
+      padding: 0px 7.5px 0px 7.5px;
+      background-color: transparent;
+      border: blue;
+      outline: none;
+   }
+
+.verticalDivider {
+   position: relative;
+   bottom: 6px;
+   border-right: 2px solid;
+   color: silver !important;
+}
+
+.inputGroupContainer {
+   position: relative;
+   top: 1px;
+   box-sizing: border-box;
+   padding-right: 10px;
+   padding-left: 10px;
+   display: inline-table;
+}
+
+   .inputGroupContainer > .input-group > .form-control {
+      border-radius: 0px;
+   }
+
+   .inputGroupContainer > .input-group > .input-group-addon {
+      border: none;
+      border-radius: 0px;
+      background-color: transparent;
+   }
+
+.footerToolbar {
+   width: 100%;
+   text-align: center;
+   bottom: 0px;
+   position: absolute;
+   white-space: nowrap;
+   overflow-y: hidden;
+   overflow-x: auto;
+   background: #DFE1E5;
+   position: fixed;
+   left: 0px;
+   right: 0px;
+   z-index: 2;
+   -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
+   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
+   height: 40px;
+}
+
+   .footerToolbar > button,
+   .footerTextControls > button {
+      background-color: transparent;
+      border: blue;
+      outline: none;
+      padding-left: 15px;
+      padding-right: 15px;
+      height: 100%;
+   }
+
+/* Mobile version toolbar */
+.mobileToolbar {
+   background: #DFE1E5;
+   z-index: 3;
+   -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
+   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
+   border: none;
+}
+
+   .mobileToolbar > .navbar-header {
+      float: none;
+      border-bottom: 1px solid silver;
+   }
+
+   .mobileToolbar > .navbar-collapse > .navbar-left, .navbar-right {
+      float: none !important;
+   }
+
+   .mobileToolbar > .navbar-header > button {
+      padding: inherit;
+      margin: inherit;
+      height: 50px;
+      width: 50px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      border-radius: inherit;
+      float: right;
+   }
+
+   .mobileToolbar > .navbar-header > .navbar-toggle {
+      display: block;
+      border-right: 1px solid silver;
+   }
+
+   .mobileToolbar > .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+   }
+
+   .mobileToolbar.navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+   }
+
+   .mobileToolbar > .navbar-collapse.collapse {
+      display: none !important;
+   }
+
+      .mobileToolbar > .navbar-collapse.collapse.in {
+         display: block !important;
+      }
+
+   .mobileToolbar > .navbar-collapse > .navbar-nav {
+      float: none !important;
+      margin-top: inherit !important;
+      padding-left: 15px;
+   }
+
+      .mobileToolbar > .navbar-collapse > .navbar-nav > li {
+         float: none;
+      }
+
+         .mobileToolbar > .navbar-collapse > .navbar-nav > li > button {
+            height: 45px;
+            border-bottom: 1px solid silver;
+         }

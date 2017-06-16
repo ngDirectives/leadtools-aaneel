@@ -1,0 +1,140 @@
+﻿$namespace: ".lt-imageviewer";
+$prefix: ".lt-thumb-";
+$view: $prefix + "view";
+$item: $prefix + "item";
+$image: $prefix + "image";
+$backimage: $prefix + "backimage";
+$image-clipping: $prefix + "image-clipping";
+$image-flip: $prefix + "image-flip";
+$image-border: $prefix + "image-border";
+$item-text: $prefix + "item-text";
+
+$disable-transitions: $prefix + "disable-transitions";
+$item-hovered: $prefix + "item-hovered";
+$item-selected: $prefix + "item-selected";
+$item-active: $prefix + "item-active";
+
+// States - item's image is loading (if by item.url = ...), item's image is loaded
+// applied to the item, not the image, for better selector logic
+$image-loading: $prefix + "image-loading";
+$image-loaded: $prefix + "image-loaded";
+
+/* This file was created in SCSS (SASS). Please change the .scss file, not the .css file. */
+
+// View
+$view-margin: 0;
+$view-border-width: 0;
+$view-padding: 0;
+
+$view-border-color: transparent;
+$view-background-color: transparent;
+
+// Item
+$item-margin: 4px;
+$item-border-width: 0;
+$item-padding: 4px;
+
+$item-border-color: transparent;
+$item-background-color: transparent;
+
+$item-hovered-border-color: #62a2e4;
+$item-hovered-background-color: #c9e0f7;
+$item-selected-border-color: darken($item-hovered-border-color, 10%);
+$item-selected-background-color: darken($item-hovered-background-color, 10%);
+
+// Image, Border, Text
+$image-border-width: 2px;
+$image-border-color: #333;
+$image-background-color: white;
+$text-color: #333;
+
+// For DocumentViewerDemo - hiding canvas
+#{$namespace}-viewdiv + #{$namespace}-forecanvas {
+   // make the canvas have transitions
+   -webkit-transition: opacity .4s ease;
+   -moz-transition: opacity .4s ease;
+   -o-transition: opacity .4s ease;
+   transition: opacity .4s ease;
+}
+
+canvas#{$namespace}-forecanvas.hide-for-transitions {
+   -webkit-transition: none;
+   -moz-transition: none;
+   -o-transition: none;
+   transition: none;
+   opacity: 0;
+}
+
+#{$namespace} {
+
+   #{$view} {
+      &, * /*:not(#{$image})*/ {
+         /* CSS Transitions (view, all elements inside) */
+         -webkit-transition: all .3s ease;
+         -moz-transition: all .3s ease;
+         -o-transition: all .3s ease;
+         transition: all .3s ease;
+         /*-moz-transition-property: color, border-color, background-color;
+         -o-transition-property: color, border-color, background-color;
+         -webkit-transition-property: color, border-color, background-color;
+         transition-property: color, border-color, background-color;*/
+         -moz-transition-property: color, border-color, background-color, box-shadow;
+         -o-transition-property: color, border-color, background-color, box-shadow;
+         -webkit-transition-property: color, border-color, background-color, box-shadow;
+         transition-property: color, border-color, background-color, box-shadow;
+      }
+   }
+
+   #{$view} {
+      /* View */
+      border: $view-border-width solid $view-border-color;
+      background-color: $view-background-color;
+      margin: $view-margin;
+      padding: $view-padding;
+   }
+
+   #{$item} {
+      /* Item */
+      border: $item-border-width solid $item-border-color;
+      background-color: $item-background-color;
+      margin: $item-margin;
+      padding: $item-padding;
+      padding-bottom: 22px;
+      border-radius: 1px;
+
+      box-shadow: 1px 1px 4px -1px transparent;
+
+      &#{$item-hovered} {
+         /* Hovered Item in selection mode */
+         border-color: $item-hovered-border-color;
+         background-color: $item-hovered-background-color;
+      }
+
+      &#{$item-selected} {
+         /* Selected Item in selection mode */
+         border-color: $item-selected-border-color;
+         background-color: $item-selected-background-color;
+      }
+   }
+      
+   #{$image-border} {
+      box-shadow: 0 1px 5px 0 #111;
+
+      &::after {
+         content: "";
+         display: block;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0, 0, 0, .05);
+      }
+   }
+
+   #{$item-text} {
+      /* Item Text */
+      color: $text-color;
+      font-size: 14px;
+      bottom: 0;
+      width: inherit;
+      text-align: center;
+   }
+}

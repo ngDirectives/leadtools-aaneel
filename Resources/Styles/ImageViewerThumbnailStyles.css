@@ -1,0 +1,71 @@
+﻿/* This file was created in SCSS (SASS). Please change the .scss file, not the .css file. */
+.lt-imageviewer-viewdiv + .lt-imageviewer-forecanvas {
+  -webkit-transition: opacity .4s ease;
+  -moz-transition: opacity .4s ease;
+  -o-transition: opacity .4s ease;
+  transition: opacity .4s ease; }
+
+canvas.lt-imageviewer-forecanvas.hide-for-transitions {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  opacity: 0; }
+
+.lt-imageviewer .lt-thumb-view, .lt-imageviewer .lt-thumb-view * {
+  /* CSS Transitions (view, all elements inside) */
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  /*-moz-transition-property: color, border-color, background-color;
+         -o-transition-property: color, border-color, background-color;
+         -webkit-transition-property: color, border-color, background-color;
+         transition-property: color, border-color, background-color;*/
+  -moz-transition-property: color, border-color, background-color, box-shadow;
+  -o-transition-property: color, border-color, background-color, box-shadow;
+  -webkit-transition-property: color, border-color, background-color, box-shadow;
+  transition-property: color, border-color, background-color, box-shadow; }
+
+.lt-imageviewer .lt-thumb-view {
+  /* View */
+  border: 0 solid transparent;
+  background-color: transparent;
+  margin: 0;
+  padding: 0; }
+
+.lt-imageviewer .lt-thumb-item {
+  /* Item */
+  border: 0 solid transparent;
+  background-color: transparent;
+  margin: 4px;
+  padding: 4px;
+  padding-bottom: 22px;
+  border-radius: 1px;
+  box-shadow: 1px 1px 4px -1px transparent; }
+  .lt-imageviewer .lt-thumb-item.lt-thumb-item-hovered {
+    /* Hovered Item in selection mode */
+    border-color: #62a2e4;
+    background-color: #c9e0f7; }
+  .lt-imageviewer .lt-thumb-item.lt-thumb-item-selected {
+    /* Selected Item in selection mode */
+    border-color: #3688dd;
+    background-color: #9dc7f0; }
+
+.lt-imageviewer .lt-thumb-image-border {
+  box-shadow: 0 1px 5px 0 #111; }
+  .lt-imageviewer .lt-thumb-image-border::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05); }
+
+.lt-imageviewer .lt-thumb-item-text {
+  /* Item Text */
+  color: #333;
+  font-size: 14px;
+  bottom: 0;
+  width: inherit;
+  text-align: center; }
+

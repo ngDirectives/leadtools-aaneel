@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <title>No HTML5 Support</title>
+   <meta charset="utf-8" />
+   <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" />
+   <style>
+            html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+            a, abbr, acronym, address, cite, code,
+            del, img,
+            small, sub, sup,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, embed,
+            figure, figcaption, footer, header, hgroup,
+            menu, nav, section, summary {
+               margin: 0;
+               padding: 0;
+               border: 0;
+               font-size: 100%;
+               font: inherit;
+               vertical-align: baseline;
+            }
+
+            article, aside, details, figcaption, figure,
+            footer, header, hgroup, menu, nav, section {
+               display: block;
+            }
+
+            html {
+               overflow-y: scroll;
+               overflow-x: hidden;
+               min-height: 100%;
+            }
+
+            #container {
+               width: 955px;
+               margin: 0 auto;
+               background: #fff;
+            }
+            header {
+               padding: 8px 20px;
+            }
+
+               header .header-img {
+                  margin: 40px 0 20px 30px;
+                  float: right;
+               }
+
+               header p {
+                  text-align: justify;
+                  margin-left: 0;
+               }
+
+            #footer {
+               font-size: 11px;
+               margin-bottom: 30px;
+               color: #FFFFFF;
+               height: 31px;
+               background: #3367b1;
+               padding: 0 25px 0 25px;
+            }
+
+               #footer div {
+                  padding: 5px 0 0 0;
+               }
+
+            #footerLinks {
+               float: left;
+            }
+
+               #footerLinks ul {
+                  margin: 0;
+                  padding: 0;
+                  list-style-type: none;
+                  display: inline;
+                  font-size: 11px;
+               }
+
+                  #footerLinks ul li {
+                     display: inline;
+                  }
+
+                     #footerLinks ul li a {
+                        color: #fff;
+                        padding: 0 5px;
+                     }
+
+                        #footerLinks ul li a:hover {
+                           color: #b7cbe0;
+                        }
+
+            #footerCopyright {
+               float: right;
+            }
+
+            body {
+               min-height: 100%;
+               background: #969696;
+               background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk2OTY5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjExJSIgc3RvcC1jb2xvcj0iIzlhOWE5YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIzJSIgc3RvcC1jb2xvcj0iI2EyYTJhMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg4JSIgc3RvcC1jb2xvcj0iI2Q1ZDZkNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+               background: -moz-linear-gradient(top, #969696 0%, #9a9a9a 11%, #a2a2a2 23%, #d5d6d6 88%);
+               background: -webkit-linear-gradient(top, #969696 0%,#9a9a9a 11%,#a2a2a2 23%,#d5d6d6 88%);
+               background: linear-gradient(to bottom, #969696 0%,#9a9a9a 11%,#a2a2a2 23%,#d5d6d6 88%);
+               font-family: "Open Sans", Arial, Sans-Serif;
+               font-size: 16px;
+               line-height: 20px;
+               font-weight: normal;
+               color: #3a3a3a;
+            }
+
+            h1 {
+               font-size: 28px;
+               line-height: 28px;
+               color: #144c9c;
+               font-weight: bold;
+               padding: 2px 10px 2px 0;
+            }
+
+            h2, h3, h4 {
+               margin: 12px 0 12px 0;
+               font-weight: bold;
+            }
+
+            a {
+               color: #015587;
+               text-decoration: none;
+            }
+
+               a:link {
+                  color: #015587;
+                  text-decoration: none;
+               }
+
+               a:visited {
+                  color: #015587;
+                  text-decoration: none;
+               }
+
+               a:hover {
+                  color: #2F8BA6;
+                  text-decoration: none;
+               }
+
+               a:active {
+                  color: #246B81;
+                  text-decoration: none;
+               }
+
+            nav {
+               clear: both;
+               height: 40px;
+               background: #3367b1;
+               position: relative;
+               border-bottom: 5px solid #E8E8E8;
+            }
+
+            html body #footer a, html body #footer a:link {
+               text-decoration: none;
+            }
+
+            h1, h2 {
+               margin: 10px auto;
+            }
+
+            #content, #content div {
+               margin: 0 10px;
+            }
+
+               #content > p {
+                  margin-left: 0;
+               }
+
+            p {
+               margin: 15px;
+            }
+
+            html body hr {
+               border-style: dashed;
+               /*border-color: #9d9d9d;*/
+               border-color: #09839d;
+            }
+   </style>
+</head>
+<body>
+   <div id="container">
+      <nav></nav>
+      <header>
+         <a class="header-img" target="_blank" href="https://www.leadtools.com"><img src="Images/LeadtoolsHeader.png" alt="LEADTOOLS - The World Leader in Imaging SDKs" /></a>
+         <h1>LEADTOOLS HTML5 / JavaScript Demos</h1>
+         <p>
+            Unfortunately, <strong>HTML5 is not supported by this browser</strong>. HTML5 is requred for the demo to run.
+            Use the list of browsers below to upgrade to a supported version.
+         </p>
+      </header>
+      <div id="content">
+         <hr />
+         <p>Here is a list of the browsers we support:</p>
+         <h3>Desktop Browsers</h3>
+         <ul>
+            <li><a href="https://support.microsoft.com/en-us/products/internet-explorer">Internet Explorer 9 or later</a></li>
+            <li><a href="https://www.google.com/chrome">Chrome 16 or later</a></li>
+            <li><a href="https://www.mozilla.org/en-US/firefox/new/">Firefox 10 or later</a></li>
+            <li><a href="http://www.opera.com/download/">Opera 11 or later</a></li>
+            <li><a href="http://www.apple.com/safari/">Safari 5 or later</a></li>
+         </ul>
+         <h3>Mobile Browsers</h3>
+         <ul>
+            <li>Windows Phone 8 or later</li>
+            <li>Opera Mobile 12 or later</li>
+            <li>Firefox Mobile 10 or later</li>
+            <li>iOS 5.0 or later</li>
+            <li>Android 2.3 or later</li>
+         </ul>
+         <h3>Tablet Browsers</h3>
+         <ul>
+            <li>Opera Mobile 12 or later</li>
+            <li>Firefox Mobile 10 or later</li>
+            <li>iOS 5.0 or later</li>
+            <li>Android 4.0 or later</li>
+         </ul>
+      </div>
+      <div id="footer">
+         <div id="footerLinks">
+            <ul>
+               <li><a href="https://www.leadtools.com/support/default.htm">Support</a></li>
+               <li><a href="https://www.leadtools.com/resources/weborder.htm">Products</a></li>
+            </ul>
+         </div>
+         <div id="footerCopyright">Copyright &copy; 1991-2017 All Rights Reserved. LEAD Technologies, Inc.</div>
+      </div>
+   </div>
+</body>
+</html>

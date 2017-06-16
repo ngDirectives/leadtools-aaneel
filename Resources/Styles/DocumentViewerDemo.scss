@@ -1,0 +1,593 @@
+﻿#document-parent{
+    .modal{
+              top:0;
+          }
+.btn-xs {
+   height: 25px;
+}
+
+.input-xs {
+   height: 25px;
+   line-height: 1px;
+}
+
+.btn-sm {
+   background-color: transparent;
+   border: blue;
+}
+
+#findTextPanel {
+   background: #DFE1E5;
+   transition: all 0.15s ease-out;
+   padding: 6px 6px 6px 6px;
+   position: fixed;
+   display: block;
+   min-width: 240px;
+   height: 48px;
+   right: -500px;
+   box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+   #findTextPanel.visiblePanel {
+      right: 0px;
+      z-index: 1;
+   }
+
+   #findTextPanel.mobileVersion,
+   #annotationsHeaderEditControls {
+      background: #DFE1E5;
+      transition: all 0.15s ease-out;
+      padding: 6px 6px 6px 6px;
+      position: fixed;
+      display: block;
+      height: 51px;
+      top: -55px;
+      right: 0px;
+      left: 0px;
+      box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.4);
+   }
+
+      #findTextPanel.mobileVersion.visiblePanel,
+      #annotationsHeaderEditControls.visiblePanel {
+         top: 0px;
+         z-index: 3;
+      }
+
+      #annotationsHeaderEditControls > button,
+      #viewControlsContainer > .viewControlsHeader > button {
+         height: 100%;
+         width: 50px;
+         background-color: transparent;
+         border: none;
+         outline: none;
+         border-radius: inherit;
+         float: right;
+         font-weight: bold;
+      }
+
+#viewControlsContainer {
+   background: #DFE1E5;
+   transition: all 0.15s ease-out;
+   position: fixed;
+   display: block;
+   right: 0px;
+   left: 0px;
+   height: 100%;
+   display: none;
+   box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.4);
+   z-index: 0;
+}
+
+   #viewControlsContainer.visiblePanel {
+      bottom: 0px !important;
+      z-index: 1000;
+   }
+
+   #viewControlsContainer > .viewControls > button {
+      height: 45px;
+      border-bottom: 1px solid silver;
+   }
+
+   #viewControlsContainer > .viewControlsHeader {
+      padding: 6px 6px 6px 6px;
+      border-bottom: 1px solid silver;
+      height: 52px;
+   }
+
+   #viewControlsContainer > .viewControls {
+      padding-left: 15px;
+   }
+
+   #viewControlsContainer > .viewControlsHeader > label {
+      color: black;
+      font-size: 14px;
+      margin-top: 11px;
+   }
+
+.checkbox-inline > label {
+   font-weight: normal;
+}
+
+#imageViewerContainer {
+   overflow: hidden;
+   position: fixed;
+   display: block;
+   left: 0px;
+   right: 0px;
+}
+
+#imageViewerDiv {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background-color: #C2C2C2;
+}
+
+button {
+   color: #4D5F82 !important;
+}
+
+   button:disabled {
+      opacity: 0.5 !important;
+   }
+
+a {
+   color: #4D5F82 !important;
+}
+
+#thumbnailsContextMenu {
+   position: absolute;
+   display: none;
+}
+
+   #thumbnailsContextMenu > .dropdown-menu {
+      width: inherit;
+      border: 1px solid silver;
+      /* Show below the main toolbar but above everything else */
+      z-index: 1;
+   }
+
+.dropdown-menu {
+   width: 250px;
+   background-color: #eee;
+   border-radius: inherit;
+   margin: inherit;
+   border-top: 1px solid #eee;
+   border-left: 0px;
+}
+
+   .dropdown-menu .divider {
+      margin: inherit;
+      background-color: lightgray;
+   }
+
+li.dropdown .menuItem {
+   background-color: transparent;
+   border: blue;
+   outline: none;
+   width: 100%;
+   text-align: left;
+   padding: 1px 6px;
+}
+
+   li.dropdown .menuItem > .icon-sm {
+      height: 20px;
+      width: 20px;
+   }
+
+   li.dropdown .menuItem > .text {
+      padding-left: 5px;
+   }
+
+   li.dropdown .menuItem:hover {
+      background: #DFE1E5;
+   }
+
+#tooltip {
+   position: absolute;
+   display: none;
+   border-radius: 1px;
+   border: 1px solid silver;
+   padding-left: 4px;
+   padding-right: 4px;
+   background-color: #F0F0F0;
+   font-size: 12px !important;
+}
+
+.navigationbar {
+   overflow: hidden;
+   position: fixed;
+   background-color: #DFE1E5;
+   display: block;
+   width: 40px;
+   left: 0px;
+   bottom: 0px;
+   top: 0px;
+   border-right: 1px solid;
+   border-right-color: #D4D6DB;
+   -webkit-box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.3);
+   box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.3);
+   z-index: 1;
+}
+
+.navigationbarBtn {
+   padding: 7.5px 0px 7.5px 0px;
+   width: 100%;
+   background-color: transparent;
+   border: 0px;
+   outline: none;
+   width: 39px;
+   height: 45px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.activeNavigationbarBtn {
+   background-color: #D4D6DB;
+   border: 1px solid darkgray;
+   border-right: 1px;
+}
+
+#showAnnotationsListControls {
+   position: absolute;
+   bottom: 0PX;
+   right: 0px;
+   height: 53px;
+}
+
+#annotationsListControls {
+   height: 250px;
+   background-color: #D4D6DB;
+   z-index: 1;
+   position: fixed;
+   left: 39px;
+   right: 0px;
+   -webkit-box-shadow: 0 -5px 5px -5px #333;
+   box-shadow: 0 -5px 5px -5px #333;
+   border: 1px solid darkgray;
+}
+
+#annotationObjectBtnsContainer > .annotationObjectBtn {
+   padding-left: 8px;
+   padding-right: 8px;
+}
+
+#annotationObjectBtnsContainer.mobileVersion {
+   bottom: -42px;
+   transition: all 0.15s ease-out;
+}
+
+   #annotationObjectBtnsContainer.mobileVersion.visiblePanel {
+      bottom: 0px;
+   }
+
+.controlHeader {
+   width: 100%;
+   height: 30px;
+   text-align: right;
+}
+
+   .controlHeader > button {
+      background-color: transparent;
+      outline: none !important;
+      border: none;
+   }
+
+      .controlHeader > button:active {
+         border-radius: 0px !important;
+      }
+
+.buttonsText {
+   padding: 5px;
+}
+
+#annotationslist {
+   top: 10px;
+   left: 3px;
+   right: 3px;
+   background-color: white;
+   bottom: 2px;
+   position: absolute;
+   border: 1px solid darkgray;
+   overflow: auto;
+}
+
+#thumbnailsControl, #bookmarksControl {
+   width: 195px;
+   background-color: #D4D6DB;
+   z-index: 1;
+   position: fixed;
+   left: 39px;
+   -webkit-box-shadow: 5px 4px 5px -5px #333;
+   box-shadow: 5px 4px 5px -5px #333;
+   border: 1px solid darkgray;
+}
+
+   #thumbnailsControl > .controlHeader, #bookmarksControl > .controlHeader {
+      padding: inherit;
+      text-align: inherit;
+      padding-top: 15px;
+      padding-left: 5px;
+   }
+
+#thumbnails, #bookmarks {
+   overflow: hidden;
+   top: 45px;
+   left: 5px;
+   right: 5px;
+   bottom: 5px;
+   position: absolute !important;
+   border: 1px solid darkgray;
+}
+
+#thumbnails {
+   background-color: #fafdff;
+}
+
+#bookmarks {
+   background-color: white;
+   overflow: auto !important;
+}
+
+.tree {
+   padding-left: 10px !important;
+}
+
+   .tree, .tree ul {
+      font: normal normal 14px/20px Helvetica, Arial, sans-serif;
+      list-style-type: none;
+      overflow: hidden;
+      padding-left: 5px;
+   }
+
+      .tree li {
+         font-size: 12px;
+         background-image: url(../Images/Icons/Bookmarks.png);
+         background-repeat: no-repeat;
+         background-position: 8px .3em;
+         padding-left: 10px;
+         background-size: 16px 16px;
+         position: relative;
+         padding-bottom: 5px;
+      }
+
+      .tree .last-one::after {
+         background-color: red;
+      }
+
+      .tree .last > span::before {
+         content: "";
+         height: 100%;
+         position: absolute;
+         border-left: 1px solid white;
+         top: 11px;
+         left: 0px;
+         z-index: 1;
+      }
+
+      .tree .last.hasChildren > span::before {
+         left: 5px;
+      }
+
+      .tree .last > ul::before {
+         content: "";
+         position: absolute;
+         border-left: 1px solid white;
+         height: 100%;
+         z-index: 1;
+         top: 15px;
+         left: 0px;
+      }
+
+      .tree > li::before {
+         display: none;
+      }
+
+      .tree > li::after {
+         display: none;
+      }
+
+      .tree li:hover {
+         cursor: pointer;
+      }
+
+      .tree li input {
+         width: 1em;
+         height: 1em;
+         position: absolute;
+         left: -0.4em;
+         top: 0;
+         opacity: 0;
+         cursor: pointer;
+         z-index: 1;
+      }
+
+         .tree li input + label {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            z-index: 2;
+            top: 5px;
+            left: -5px;
+         }
+
+         .tree li input + label {
+            background: url(../../Resources/Images/Icons/Expand.png) no-repeat;
+            background-size: 11px !important;
+         }
+
+         .tree li input:checked + label {
+            background: url(../../Resources/Images/Icons/Collapse.png) no-repeat !important;
+            background-size: 11px !important;
+         }
+
+         .tree li input + label + span + ul {
+            display: none;
+         }
+
+         .tree li input:checked + label + span + ul {
+            display: block;
+         }
+
+      .tree li.hasChildren > span {
+         position: relative;
+         margin-left: -15px;
+         padding-left: 35px;
+      }
+
+         .tree li.hasChildren > span.checked {
+            background-image: linear-gradient(to right,transparent 35px, #E3E3E3 10px);
+         }
+
+      .tree li.hasChildren input + label + span::after {
+         content: "";
+         border-left: 1px solid silver;
+         position: absolute;
+         left: 20px;
+         top: 16px;
+         height: 0px;
+      }
+
+      .tree li.hasChildren input:checked + label + span::after {
+         height: 100%;
+      }
+
+      .tree li span {
+         padding-left: 20px;
+         display: list-item;
+      }
+
+         .tree li span.checked {
+            background-image: linear-gradient(to right,transparent 20px, #E3E3E3 10px);
+            background-color: transparent !important;
+            outline: none !important;
+         }
+
+      .tree li::before, .tree li::after {
+         content: '';
+         position: absolute;
+         left: 0;
+      }
+
+      .tree li::before {
+         border-top: 1px solid silver;
+         top: 10px;
+         width: 10px;
+         height: 0;
+      }
+
+      .tree li:after {
+         border-left: 1px solid silver;
+         height: 100%;
+         width: 0px;
+         top: -10px;
+      }
+
+#loadingThumbnailsBar {
+   display: none;
+   position: absolute;
+   bottom: 0px;
+   left: 6px;
+   z-index: 10000;
+   border: 1px solid;
+   border-color: silver;
+}
+
+#loadingAnnotationsBar {
+   display: none;
+   position: absolute;
+   bottom: 3px;
+   right: 15px;
+   z-index: 10000;
+   border: 1px solid;
+   border-color: silver;
+}
+
+.panel-heading {
+   background: #DFE1E5;
+}
+
+.collapse-expand {
+   border: none;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-position-y: center;
+   background-color: transparent;
+   width: 100%;
+   border: 1px solid;
+   border-radius: 0px;
+   border-color: silver;
+   padding: inherit;
+}
+
+.toggleToExpand {
+   background-image: url(../../Resources/Images/Icons/Expand.png);
+}
+
+.toggleToCollapse {
+   background-image: url(../../Resources/Images/Icons/Collapse.png);
+}
+
+.panel {
+   border: none;
+   background-color: transparent;
+}
+
+.checked {
+   background-color: #c9e0f7 !important;
+   outline: 1px solid #62a2e4 !important;
+}
+
+#zoomValues {
+   font-size: 13px;
+   font-family: inherit;
+   font-weight: bold;
+   padding: 0 7px;
+   width: 92px;
+}
+
+   #zoomValues > option {
+      font-size: 13px;
+      font-family: inherit;
+      font-weight: bold;
+   }
+
+.annotations {
+   display: none;
+}
+
+.documentInfoField, .metadataField {
+   width: 100%;
+}
+
+#pages {
+   line-height: normal;
+}
+
+.lt-print.print-div {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+}
+
+.lt-print.print-frame {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   border: none;
+   z-index: -1;
+}
+
+@media print {
+   .hide-for-print, .hide-for-print * {
+      display: none !important;
+   }
+
+   /* We will set the style on the element we choose to print with programmatically */
+   .lt-print {
+      display: none;
+   }
+}
+}
