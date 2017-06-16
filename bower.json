@@ -3,15 +3,15 @@
   "description": "leadtools bower component for easy use",
   "main": [
 	"Resources/Styles/DocumentViewerDemo.scss",
-	"Resources/Styles/Toolbars.css",
-	"Resources/Styles/ImageViewerStyles.css",
-	"Resources/Styles/ImageViewerThumbnailStyles.css",
-	"Resources/Styles/Sidebar.css",
-	"Resources/Styles/Table.css",
-	"Resources/Styles/Dialogs.css",
-	"Resources/Styles/Icons.css",
-	"Resources/Styles/AutomationObjectsList.css",
-	"Resources/Styles/spectrum/spectrum.css",
+	"Resources/Styles/Toolbars.scss",
+	"Resources/Styles/ImageViewerStyles.scss",
+	"Resources/Styles/ImageViewerThumbnailStyles.scss",
+	"Resources/Styles/Sidebar.scss",
+	"Resources/Styles/Table.scss",
+	"Resources/Styles/Dialogs.scss",
+	"Resources/Styles/Icons.scss",
+	"Resources/Styles/AutomationObjectsList.scss",
+	"Resources/Styles/spectrum/spectrum.scss",
 	"Common/Libs/spectrum/spectrum.js",
 	"Common/Libs/pdfjs/lt.pdf.js",
 	"Common/Libs/pdfjs/lt.pdf.compatibility.js",
@@ -63,6 +63,5 @@
   "authors": [
     "aaneel"
   ],
-  "license": "personal license",
-  "homepage": ""
+  "license": "personal license"
 }
