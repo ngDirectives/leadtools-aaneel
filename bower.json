@@ -55,7 +55,7 @@
 	"Common/Dialogs/AboutDlg.js",
 	"DriveHelper/DriveHelper.js",
 	"DriveHelper/SharePointPickerDlg.js"
-  ]
+  ],
   "keywords": [
     "leadtools",
     "bower"
