@@ -413,4 +413,12 @@ td.directoryItem { /* sharePoint picker dialog */
    background-color: transparent;
    border: 0px !important;
 }
+input[type="checkbox"], .k-link > input[type="radio"]{
+position:relative;
+}
+#document-parent button{
+border: 0;
+    background-color: #eee!important;
+    padding: 3px 8px;;
+}
 }
