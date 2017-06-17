@@ -9,7 +9,7 @@
 	"Resources/Styles/Sidebar.scss",
 	"Resources/Styles/Table.scss",
 	"Resources/Styles/Dialogs.scss",
-	"Resources/Styles/Icons.scss",
+	"Resources/Styles/Icons.css",
 	"Resources/Styles/AutomationObjectsList.scss",
 	"Resources/Styles/spectrum/spectrum.scss",
 	"Common/Libs/spectrum/spectrum.js",

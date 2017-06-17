@@ -1,0 +1,487 @@
+﻿#document-parent .icon {
+  position: relative;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 35px;
+  height: 25px;
+  top: 3px;
+}
+#document-parent .icon-md {
+  width: 24px;
+  height: 24px;
+  background-size: 16px 16px;
+}
+#document-parent .icon-sm {
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+}
+#document-parent .icon-xs {
+  margin: 0 auto;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+}
+#document-parent .duplicateIcon {
+  background-image: url(../Images/Icons/MultiPagesExportText.png);
+}
+#document-parent .openIcon {
+  background-image: url(../Images/Icons/Open.png);
+}
+#document-parent .openUrlIcon {
+  background-image: url(../Images/Icons/OpenUrl.png);
+}
+#document-parent .server {
+  background-image: url(../Images/Icons/Server.png);
+}
+#document-parent .openAnnotationIcon {
+  background-image: url(../Images/Icons/OpenAnnotation.png);
+}
+#document-parent .loadBatesStampIcon {
+  background-image: url(../Images/Icons/LoadBates.png);
+}
+#document-parent .saveIcon {
+  background-image: url(../Images/Icons/Save.png);
+}
+#document-parent .saveXMLIcon {
+  background-image: url(../Images/Icons/SaveXML.png);
+}
+#document-parent .closeIcon {
+  background-image: url(../Images/Icons/Close.png);
+}
+#document-parent .viewIcon {
+  background-image: url(../Images/Icons/View.png);
+}
+#document-parent .propertiesIcon {
+  background-image: url(../Images/Icons/Properties.png);
+}
+#document-parent .runIcon {
+  background-image: url(../Images/Icons/Run.png);
+}
+#document-parent .undoIcon {
+  background-image: url(../Images/Icons/Undo.png);
+}
+#document-parent .redoIcon {
+  background-image: url(../Images/Icons/Redo.png);
+}
+#document-parent .selectAllTextIcon {
+  background-image: url(../Images/Icons/SelectAllText.png);
+}
+#document-parent .selectAllAnnotationsIcon {
+  background-image: url(../Images/Icons/SelectAllAnnotations.png);
+}
+#document-parent .findTextIcon {
+  background-image: url(../Images/Icons/FindText.png);
+}
+#document-parent .clearSelectionIcon {
+  background-image: url(../Images/Icons/ClearSelection.png);
+}
+#document-parent .copyTextIcon {
+  background-image: url(../Images/Icons/CopyText.png);
+}
+#document-parent .selectAreaIcon {
+  background-image: url(../Images/Icons/SelectAreaMode.png);
+}
+#document-parent .panZoomIcon {
+  background-image: url(../Images/Icons/PanZoomMode.png);
+}
+#document-parent .magnifyGlassIcon {
+  background-image: url(../Images/Icons/MagnifyGlassMode.png);
+}
+#document-parent .panIcon {
+  background-image: url(../Images/Icons/PanMode.png);
+}
+#document-parent .zoomIcon {
+  background-image: url(../Images/Icons/ZoomMode.png);
+}
+#document-parent .zoomToIcon {
+  background-image: url(../Images/Icons/ZoomToMode.png);
+}
+#document-parent .selectTextIcon {
+  background-image: url(../Images/Icons/SelectTextMode.png);
+}
+#document-parent .autoPanIcon {
+  background-image: url(../Images/Icons/AutoPanMode.png);
+}
+#document-parent .inertiaScrollIcon {
+  background-image: url(../Images/Icons/InertiaScroll.png);
+}
+#document-parent .fitIcon {
+  background-image: url(../Images/Icons/Fit.png);
+}
+#document-parent .actualSizeIcon {
+  background-image: url(../Images/Icons/ActualSize.png);
+}
+#document-parent .actualPageSizeIcon {
+  background-image: url(../Images/Icons/Document.png);
+}
+#document-parent .page-FitIcon {
+  background-image: url(../Images/Icons/FitPage.png);
+}
+#document-parent .fitWidthIcon {
+  background-image: url(../Images/Icons/FitWidth.png);
+}
+#document-parent .svgViewIcon {
+  background-image: url(../Images/Icons/ViewAsSvg.png);
+}
+#document-parent .imageViewIcon {
+  background-image: url(../Images/Icons/ViewAsImage.png);
+}
+#document-parent .thumbnailsIcon {
+  background-image: url(../Images/Icons/Thumbnails.png);
+}
+#document-parent .bookmarksIcon {
+  background-image: url(../Images/Icons/Bookmarks.png);
+}
+#document-parent .annotationsIcon {
+  background-image: url(../Images/Icons/Annotations.png);
+}
+#document-parent .firstPageIcon {
+  background-image: url(../Images/Icons/FirstPage.png);
+}
+#document-parent .previousIcon {
+  background-image: url(../Images/Icons/PreviousPage.png);
+}
+#document-parent .nextIcon {
+  background-image: url(../Images/Icons/NextPage.png);
+}
+#document-parent .lastPageIcon {
+  background-image: url(../Images/Icons/LastPage.png);
+}
+#document-parent .singlePageExportTextIcon {
+  background-image: url(../Images/Icons/SinglePageExportText.png);
+}
+#document-parent .multiPagesExportTextIcon {
+  background-image: url(../Images/Icons/MultiPagesExportText.png);
+}
+#document-parent .barcodeIcon {
+  background-image: url(../Images/Icons/Barcode.png);
+}
+#document-parent .singleLayoutIcon {
+  background-image: url(../Images/Icons/Document.png);
+}
+#document-parent .doubleLayoutIcon {
+  background-image: url(../Images/Icons/DoubleLayout.png);
+}
+#document-parent .verticalLayoutIcon {
+  background-image: url(../Images/Icons/VerticalLayout.png);
+}
+#document-parent .horizontalLayoutIcon {
+  background-image: url(../Images/Icons/HorizontalLayout.png);
+}
+#document-parent .zoomInIcon {
+  background-image: url(../Images/Icons/ZoomIn.png);
+}
+#document-parent .zoomOutIcon {
+  background-image: url(../Images/Icons/ZoomOut.png);
+}
+#document-parent .flipIcon {
+  background-image: url(../Images/Icons/Flip.png);
+}
+#document-parent .reverseIcon {
+  background-image: url(../Images/Icons/Reverse.png);
+}
+#document-parent .rotateCounterClockwiseIcon {
+  background-image: url(../Images/Icons/CounterClockwise.png);
+}
+#document-parent .rotateClockwiseIcon {
+  background-image: url(../Images/Icons/Clockwise.png);
+}
+#document-parent .interpolationIcon {
+  background-image: url(../Images/Icons/Interpolation.png);
+}
+#document-parent .settingsIcon {
+  background-image: url(../Images/Icons/Settings.png);
+}
+#document-parent .helpIcon {
+  background-image: url(../Images/Icons/Help.png);
+}
+#document-parent .documentIcon {
+  background-image: url(../Images/Icons/Document.png);
+}
+#document-parent .userNameIcon {
+  background-image: url(../Images/Icons/UserName.png);
+}
+#document-parent .showTextIndicatorsIcon {
+  background-image: url(../Images/Icons/ShowTextIndicators.png);
+}
+#document-parent .showLinksIcon {
+  background-image: url(../Images/Icons/ShowLinks.png);
+}
+#document-parent .selectIcon {
+  background-image: url(../Images/Icons/Hand.png);
+}
+#document-parent .lineIcon {
+  background-image: url(../Images/Icons/Line.png);
+}
+#document-parent .rectangleIcon {
+  background-image: url(../Images/Icons/Rectangle.png);
+}
+#document-parent .ellipseIcon {
+  background-image: url(../Images/Icons/Circle.png);
+}
+#document-parent .polylineIcon {
+  background-image: url(../Images/Icons/Polyline.png);
+}
+#document-parent .polygonIcon {
+  background-image: url(../Images/Icons/Polygon.png);
+}
+#document-parent .curveIcon {
+  background-image: url(../Images/Icons/SCurve.png);
+}
+#document-parent .closedCurveIcon {
+  background-image: url(../Images/Icons/BSpline.png);
+}
+#document-parent .pointerIcon {
+  background-image: url(../Images/Icons/Pointer.png);
+}
+#document-parent .freehandIcon {
+  background-image: url(../Images/Icons/Pen.png);
+}
+#document-parent .hiliteIcon {
+  background-image: url(../Images/Icons/Highlight.png);
+}
+#document-parent .textIcon {
+  background-image: url(../Images/Icons/A.png);
+}
+#document-parent .textPointerIcon {
+  background-image: url(../Images/Icons/AArrow.png);
+}
+#document-parent .noteIcon {
+  background-image: url(../Images/Icons/Note.png);
+}
+#document-parent .stampIcon {
+  background-image: url(../Images/Icons/Image.png);
+}
+#document-parent .rubberStampIcon {
+  background-image: url(../Images/Icons/Stamp.png);
+}
+#document-parent .hotspotIcon {
+  background-image: url(../Images/Icons/H.png);
+}
+#document-parent .freehandHotspotIcon {
+  background-image: url(../Images/Icons/HSquiggles.png);
+}
+#document-parent .pointIcon {
+  background-image: url(../Images/Icons/RoundX.png);
+}
+#document-parent .redactionIcon {
+  background-image: url(../Images/Icons/Redact.png);
+}
+#document-parent .rulerIcon {
+  background-image: url(../Images/Icons/Ruler.png);
+}
+#document-parent .polyRulerIcon {
+  background-image: url(../Images/Icons/90DegreeRuler.png);
+}
+#document-parent .protractorIcon {
+  background-image: url(../Images/Icons/Protractor.png);
+}
+#document-parent .crossProductIcon {
+  background-image: url(../Images/Icons/Intersect.png);
+}
+#document-parent .textRollupIcon {
+  background-image: url(../Images/Icons/Pin.png);
+}
+#document-parent .audioIcon {
+  background-image: url(../Images/Icons/Sound.png);
+}
+#document-parent .videoIcon {
+  background-image: url(../Images/Icons/Video.png);
+}
+#document-parent .triangleIcon {
+  background-image: url(../Images/Icons/Triangle.png);
+}
+#document-parent .richTextIcon {
+  background-image: url(../Images/Icons/RichText.png);
+}
+#document-parent .butnAnnotationIcon {
+  background-image: url(../Images/Icons/Burn.png);
+}
+#document-parent .lockIcon {
+  background-image: url(../Images/Icons/Lock.png);
+}
+#document-parent .unlockIcon {
+  background-image: url(../Images/Icons/Unlock.png);
+}
+#document-parent .textHiliteIcon {
+  background-image: url(../Images/Icons/THighlight.png);
+}
+#document-parent .textStrikeoutIcon {
+  background-image: url(../Images/Icons/Strikethrough.png);
+}
+#document-parent .textUnderlineIcon {
+  background-image: url(../Images/Icons/Underline.png);
+}
+#document-parent .textRedactionIcon {
+  background-image: url(../Images/Icons/TRedact.png);
+}
+#document-parent .stickyNoteIcon {
+  background-image: url(../Images/Icons/StickyNotes.png);
+}
+#document-parent .applyDecryptorIcon {
+  background-image: url(../Images/Icons/ApplyDecryptor.png);
+}
+#document-parent .applyEncryptorIcon {
+  background-image: url(../Images/Icons/ApplyEncryptor.png);
+}
+#document-parent .restoreRedactIcon {
+  background-image: url(../Images/Icons/RestoreRedact.png);
+}
+#document-parent .realizeRedactIcon {
+  background-image: url(../Images/Icons/RealizeRedact.png);
+}
+#document-parent .runModeIcon {
+  background-image: url(../Images/Icons/Run.png);
+}
+#document-parent .designModeIcon {
+  background-image: url(../Images/Icons/Solid.png);
+}
+#document-parent .renderModeIcon {
+  background-image: url(../Images/Icons/RenderMode.png);
+}
+#document-parent .renderModeSettingsIcon {
+  background-image: url(../Images/Icons/RenderModeSettings.png);
+}
+#document-parent .bringToFrontIcon {
+  background-image: url(../Images/Icons/ToFront.png);
+}
+#document-parent .sendToBackIcon {
+  background-image: url(../Images/Icons/ToBack.png);
+}
+#document-parent .bringToFirstIcon {
+  background-image: url(../Images/Icons/ToFirst.png);
+}
+#document-parent .sendToLastIcon {
+  background-image: url(../Images/Icons/ToLast.png);
+}
+#document-parent .groupIcon {
+  background-image: url(../Images/Icons/Group.png);
+}
+#document-parent .ungroupIcon {
+  background-image: url(../Images/Icons/Ungroup.png);
+}
+#document-parent .resetRotatePointIcon {
+  background-image: url(../Images/Icons/ResetRotatePoint.png);
+}
+#document-parent .rotateThumbIcon {
+  background-image: url(../Images/Icons/RotateThumb.png);
+}
+#document-parent .renderOnThumbnailsIcon {
+  background-image: url(../Images/Icons/RenderAnnOnThumbnails.png);
+}
+#document-parent .deselectOnDown-MouseIcon {
+  background-image: url(../Images/Icons/DeselectOnDown-Mouse.png);
+}
+#document-parent .deselectOnDown-TouchIcon {
+  background-image: url(../Images/Icons/DeselectOnDown-Touch.png);
+}
+#document-parent .rubberbandSelect-MouseIcon {
+  background-image: url(../Images/Icons/SelectAllAnnotations.png);
+}
+#document-parent .rubberbandSelect-TouchIcon {
+  background-image: url(../Images/Icons/SelectAllAnnotations.png);
+}
+#document-parent .twoParallelIcon {
+  background-image: url(../Images/Icons/ParallelLines.png);
+}
+#document-parent .fourParallelIcon {
+  background-image: url(../Images/Icons/FourLines.png);
+}
+#document-parent .midLinesIcon {
+  background-image: url(../Images/Icons/Midline.png);
+}
+#document-parent .snapLinesIcon {
+  background-image: url(../Images/Icons/Snap.png);
+}
+#document-parent .intersectionLinesIcon {
+  background-image: url(../Images/Icons/Intersect.png);
+}
+#document-parent .cobbAngleIcon {
+  background-image: url(../Images/Icons/CobbAngle.png);
+}
+#document-parent .norbergIcon {
+  background-image: url(../Images/Icons/Norberg.png);
+}
+#document-parent .firstPage-sm-Icon {
+  background-image: url(../Images/Icons/FirstPage-Small.png);
+}
+#document-parent .previousPage-sm-Icon {
+  background-image: url(../Images/Icons/PreviousPage-Small.png);
+}
+#document-parent .nextPage-Small-sm-Icon {
+  background-image: url(../Images/Icons/NextPage-Small.png);
+}
+#document-parent .lastPage-sm-Icon {
+  background-image: url(../Images/Icons/LastPage-Small.png);
+}
+#document-parent .rotateCounterClockwiseIcon-sm-Icon {
+  background-image: url(../Images/Icons/CounterClockwise-Small.png);
+}
+#document-parent .rotateClockwiseIcon-sm-Icon {
+  background-image: url(../Images/Icons/Clockwise-Small.png);
+}
+#document-parent .zoomIn-sm-Icon {
+  background-image: url(../Images/Icons/ZoomIn-Small.png);
+}
+#document-parent .zoomOut-sm-Icon {
+  background-image: url(../Images/Icons/ZoomOut-Small.png);
+}
+#document-parent .reload-sm-Icon {
+  background-image: url(../Images/Icons/Reload-Small.png);
+}
+#document-parent .find-xs-Icon {
+  background-image: url(../Images/Icons/Find-XSmall.png);
+}
+#document-parent .next-xs-Icon {
+  background-image: url(../Images/Icons/NextPage-XSmall.png);
+}
+#document-parent .previous-xs-Icon {
+  background-image: url(../Images/Icons/PreviousPage-XSmall.png);
+}
+#document-parent .documentAnnotationsIcon {
+  background-image: url(../Images/Icons/DocumentAnnotations.png);
+}
+#document-parent .medicalAnnotationIcon {
+  background-image: url(../Images/Icons/MedicalAnnotation.png);
+}
+#document-parent .objectsAlignmentOptionsIcon {
+  background-image: url(../Images/Icons/Center-Align.png);
+}
+#document-parent .alignToLeft {
+  background-image: url(../Images/Icons/Left-Align.png);
+}
+#document-parent .alignToCenter {
+  background-image: url(../Images/Icons/Center-Align.png);
+}
+#document-parent .alignToRight {
+  background-image: url(../Images/Icons/Right-Align.png);
+}
+#document-parent .alignToTop {
+  background-image: url(../Images/Icons/Top-Align.png);
+}
+#document-parent .alignToMiddle {
+  background-image: url(../Images/Icons/Middle-Align.png);
+}
+#document-parent .alignToBottom {
+  background-image: url(../Images/Icons/Bottom-Align.png);
+}
+#document-parent .makeSameWidth {
+  background-image: url(../Images/Icons/Make-Same-Width.png);
+}
+#document-parent .makeSameHeight {
+  background-image: url(../Images/Icons/Make-Same-Height.png);
+}
+#document-parent .makeSameSize {
+  background-image: url(../Images/Icons/Make-Same-Size.png);
+}
+#document-parent .scan {
+  background-image: url(../Images/Icons/Scan.png);
+}
+#document-parent .scanSelect {
+  background-image: url(../Images/Icons/ScanSelect.png);
+}
+#document-parent .print {
+  background-image: url(../Images/Icons/Print.png);
+}
